@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyShop>
+	<product>
+		<name>New Product 1</name>
+		<description>describe new product 1 here</description>
+		<price>1000</price>
+		<category>cognac</category>
+	</product>
+	<product>
+		<name>New Product 2</name>
+		<description>describe new product 2 here</description>
+		<price>2000</price>
+		<category>cognac</category>
+	</product>
+	<product>
+		<name>New Product 3</name>
+		<description>describe new product 3 here</description>
+		<price>3000</price>
+		<category>whisky</category>
+	</product>
+</MyShop>

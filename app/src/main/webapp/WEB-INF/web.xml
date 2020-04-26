@@ -1,0 +1,71 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+  <servlet>
+  	<servlet-name>UploadServlet</servlet-name>
+  	<display-name>UploadServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servletController.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UploadFileController</servlet-name>
+  	<display-name>UploadFileController</display-name>
+  	<description></description>
+  	<servlet-class>com.servletController.UploadFileController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MessageUploadController</servlet-name>
+  	<display-name>MessageUploadController</display-name>
+  	<description></description>
+  	<servlet-class>com.servletController.MessageUploadController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AllFile</servlet-name>
+  	<display-name>AllFile</display-name>
+  	<description></description>
+  	<servlet-class>com.servletController.AllFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BrowseFilesController</servlet-name>
+  	<display-name>BrowseFilesController</display-name>
+  	<description></description>
+  	<servlet-class>com.servletController.BrowseFilesController</servlet-class>
+  </servlet>
+
+
+    
+    <servlet-mapping>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>*.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UploadServlet</servlet-name>
+    	<url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>UploadFileController</servlet-name>
+    	<url-pattern>/UploadFileController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>MessageUploadController</servlet-name>
+    	<url-pattern>/MessageUploadController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AllFile</servlet-name>
+    	<url-pattern>/AllFile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>BrowseFilesController</servlet-name>
+    	<url-pattern>/BrowseFilesController</url-pattern>
+    </servlet-mapping>
+    
+   
+</web-app>
